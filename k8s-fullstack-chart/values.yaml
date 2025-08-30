@@ -21,7 +21,7 @@ backend:
   backendpodselector: backend
   backendcontainername: backend
   backendimage:
-    repository: doomerdpk/k8s_fullstack-backend
+    repository: doomerdpk/argobackend
     tag: "dotenv"
   backendsecretvolumename: env-file
   backendsecretmountpath: /app/secrets
@@ -34,7 +34,7 @@ frontend:
   frontendpodselector: frontend
   frontendcontainername: frontend
   frontendimage:
-    repository: doomerdpk/k8s_fullstack-frontend
+    repository: doomerdpk/doomerdpk/argofrontend
     tag: "v2"
   frontendservicename: frontend
 

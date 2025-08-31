@@ -22,8 +22,7 @@ backend:
   backendcontainername: backend
   backendimage:
     repository: doomerdpk/argobackend
-  tag: 20f6e08446647f40d79f75b079cc1763416f1c7b
-    tag: "9e22909bb356c146e6502f0021dcaf1b6ffc3801"
+    tag: 20f6e08446647f40d79f75b079cc1763416f1c7b
   backendsecretvolumename: env-file
   backendsecretmountpath: /app/secrets
   backendservicename: backend
@@ -36,8 +35,7 @@ frontend:
   frontendcontainername: frontend
   frontendimage:
     repository: doomerdpk/argofrontend
-  tag: 20f6e08446647f40d79f75b079cc1763416f1c7b
-    tag: "9e22909bb356c146e6502f0021dcaf1b6ffc3801"
+    tag: 20f6e08446647f40d79f75b079cc1763416f1c7b
   frontendservicename: frontend
 
 ingress:

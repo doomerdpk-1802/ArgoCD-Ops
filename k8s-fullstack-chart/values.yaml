@@ -43,5 +43,3 @@ ingress:
   frontendservicename: frontend
   backendnamespace: backendnamespace
   backendservicename: backend
-backendimage:
-  tag: c3888300d6e2b7774b98d0ea2de15bcd22f67821
